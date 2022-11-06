@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/activity_detail_resto.xml" value="0.12335359675785208" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/activity_details.xml" value="0.12335359675785208" />
         <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/activity_items.xml" value="0.2477355072463768" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/activity_review.xml" value="0.12335359675785208" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/activity_review_main.xml" value="0.12335359675785208" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/activity_upload.xml" value="0.12335359675785208" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/list_item_highlights.xml" value="0.36666666666666664" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/list_item_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/list_item_review.xml" value="0.36666666666666664" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/row_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/search_review.xml" value="0.36666666666666664" />
+        <entry key="..\:/MobileDevice/CustomProgram/FoodListApp/app/src/main/res/layout/toolbar_main.xml" value="0.36666666666666664" />
         <entry key="..\:/MobileDevice/CustomProgram/RestoFind/app/src/main/res/drawable/bg_search.xml" value="0.1815" />
         <entry key="..\:/MobileDevice/CustomProgram/RestoFind/app/src/main/res/drawable/ic_search.xml" value="0.1815" />
         <entry key="..\:/MobileDevice/CustomProgram/RestoFind/app/src/main/res/layout/activity_detail_resto.xml" value="0.136" />

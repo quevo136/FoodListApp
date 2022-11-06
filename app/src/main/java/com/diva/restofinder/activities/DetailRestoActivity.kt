@@ -59,9 +59,9 @@ class DetailRestoActivity : AppCompatActivity() {
         }
 
         mProgressBar = ProgressDialog(this)
-        mProgressBar?.setTitle("Mohon Tunggu")
+        mProgressBar?.setTitle("Waiting... ")
         mProgressBar?.setCancelable(false)
-        mProgressBar?.setMessage("Sedang menampilkan data...")
+        mProgressBar?.setMessage("Loading data...")
 
         toolbar.setTitle("")
         setSupportActionBar(toolbar)
@@ -181,14 +181,14 @@ class DetailRestoActivity : AppCompatActivity() {
                     } catch (e: JSONException) {
                         e.printStackTrace()
                         Toast.makeText(this@DetailRestoActivity,
-                            "Gagal menampilkan data!", Toast.LENGTH_SHORT).show()
+                            "Unable to display data!", Toast.LENGTH_SHORT).show()
                     }
                 }
 
                 override fun onError(anError: ANError) {
                     mProgressBar?.dismiss()
                     Toast.makeText(this@DetailRestoActivity,
-                        "Tidak ada jaringan internet!", Toast.LENGTH_SHORT).show()
+                        "Cannot connect internet!", Toast.LENGTH_SHORT).show()
                 }
             })
     }
@@ -221,13 +221,13 @@ class DetailRestoActivity : AppCompatActivity() {
                         reviewAdapter?.notifyDataSetChanged()
                     } catch (e: JSONException) {
                         e.printStackTrace()
-                        Toast.makeText(this@DetailRestoActivity, "Gagal menampilkan data!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@DetailRestoActivity, "Cannot connect data!", Toast.LENGTH_SHORT).show()
                     }
                 }
 
                 override fun onError(anError: ANError) {
                     mProgressBar?.dismiss()
-                    Toast.makeText(this@DetailRestoActivity, "Tidak ada jaringan internet!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@DetailRestoActivity, "No signal!", Toast.LENGTH_SHORT).show()
                 }
             })
     }

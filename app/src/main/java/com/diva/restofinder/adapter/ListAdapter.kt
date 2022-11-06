@@ -18,7 +18,7 @@ RecyclerView.Adapter<ListAdapter.ListViewHolder>()
 {
     inner class ListViewHolder(var v:View): RecyclerView.ViewHolder(v){
 
-        var imgT = v.findViewById<ImageView>(R.id.teacherImageView)
+        var imgT = v.findViewById<ImageView>(R.id.foodImageView)
         var nameT = v.findViewById<TextView>(R.id.nameTextView)
         var addressT = v.findViewById<TextView>(R.id.review)
         var phoneT = v.findViewById<TextView>(R.id.phoneNumberTextView)
@@ -122,7 +122,6 @@ RecyclerView.Adapter<ListAdapter.ListViewHolder>()
         holder.descriT.text = newList.description
         holder.imgT.loadImage(newList.imageUrl)
         holder.addressT.text = newList.address
-        //holder.addressT.text = newList.address
 
 
         holder.v.setOnClickListener {
